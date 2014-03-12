@@ -167,17 +167,16 @@ NUEVO STYLE!! <-----------------------------------------------------------------
 .redespng{
 	margin-right:10px;
 }
-#carrusel{
-	width: 300px;
-	margin: auto;
-	border: 1px solid #ccc;
+#carousel1{
+	max-width: 228px;
+	float:left;
 	overflow: auto;
 	height: 57px;
-	position: relative;
 	margin-top: 2em;
+	width:100%;
 }
-#carrusel img{
-	width: 50px;
+#carousel1 img{
+	width: 57px;
 	border: 0 none;
 }
 /*
