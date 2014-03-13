@@ -863,7 +863,7 @@ img.wp-smiley,
 /*	float:right;*/
 	margin: 0 auto;
 	margin-right:30px;
-	max-width: 1040px;
+	max-width: 0px;
 }
 
 
@@ -1072,11 +1072,11 @@ ul.nav-menu li:hover > ul,
 }
 
 .noticias_index{
-	text-align:center;
-	padding-left:12%;
+	text-align: center;
 	padding-top: 16px;
-	width:70%;
-	height:623px;
+	width: 100%;
+	max-width: 1000px;
+	height: 623px;
 }
 .sidebar_index{
 	width:30%;
