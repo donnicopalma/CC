@@ -1067,8 +1067,13 @@ ul.nav-menu li:hover > ul,
 	background: no-repeat center url(images/fondo_destacados.png);
 	text-align:center !important;
 	padding-top: 16px;
-	width:80%;
+	padding: 1% 0% 0% 4%;
+	width:96%;
+	margin:0 auto;
 	height:623px;
+}
+.destacados div{
+	
 }
 
 .noticias_index{
