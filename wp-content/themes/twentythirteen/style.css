@@ -853,10 +853,11 @@ img.wp-smiley,
 
 .site-main .sidebar-container {
 	height: 0;
-	/*position: absolute;*/
+	position: absolute;
 	top: 40px;
+	margin-top: 600px;
+	max-width: 1000px;
 	width: 100%;
-	z-index: 1;
 }
 
 .site-main .sidebar-inner {

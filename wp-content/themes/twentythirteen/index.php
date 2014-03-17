@@ -56,7 +56,8 @@ get_header(); ?>
     
             </div><!-- #content -->
         </div><!-- #third -->
-		<div class="noticias_index"><?php get_sidebar(); ?></div>
+		
     </div>
+	<div class="noticias_index"><?php get_sidebar(); ?></div>
 
 <?php get_footer(); ?>
