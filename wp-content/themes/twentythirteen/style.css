@@ -180,12 +180,24 @@ NUEVO STYLE!! <-----------------------------------------------------------------
 	border: 0 none;
 }
 .content-area{
-	max-width:1592px;
+	max-width:1594px;
+	
 }
 #wrapper{
 	max-width: 1220px;
 	margin: 0 auto;
 	width: 100%;
+}
+#third{
+	
+}
+#contenedor{
+	width: 886px;
+	float: left;
+	margin-left: 96px;
+}
+#tertiary{
+	float:right;
 }
 /*
 FIN DEL NUEVO STYLE <-------------------------------------------
@@ -1089,9 +1101,6 @@ ul.nav-menu li:hover > ul,
 .noticias_index{
 	text-align: center;
 	padding-top: 16px;
-	width: 100%;
-	max-width: 1000px;
-	height: 623px;
 }
 .sidebar_index{
 	width:30%;
@@ -2569,9 +2578,9 @@ footer.entry-meta {
  * ----------------------------------------------------------------------------
  */
 
-.site-main .widget-area {
-	
-	width: 300px;
+.site-main .widget-area {	
+	margin-left: 15px;
+    width: 278px;
 }
 
 
