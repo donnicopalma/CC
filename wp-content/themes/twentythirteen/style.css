@@ -187,18 +187,20 @@ NUEVO STYLE!! <-----------------------------------------------------------------
 	max-width: 1220px;
 	margin: 0 auto;
 	width: 100%;
+	padding-left: 15px;
 }
 #third{
 	
 }
 #contenedor{
-	max-width: 886px;
-	float: left;
+	max-width: 910px;
 	width: 100%;
 	margin: 0 auto;
+	float: left;
 }
-#tertiary{
-	float:left;
+.medio{
+	width:1219px;
+	margin: 0 auto;
 }
 /*
 FIN DEL NUEVO STYLE <-------------------------------------------
@@ -876,13 +878,13 @@ img.wp-smiley,
 	height: 0;
 	/*position: absolute;*/
 	top: 40px;
+	float:left;
 	/*margin-top: 600px;*/
 	/*max-width: 1000px;*/
 	/*width: 100%;*/
 }
 
 .site-main .sidebar-inner {
-/*	float:right;*/
 	margin: 0 auto;
 	margin-right:30px;
 	max-width: 0px;
@@ -1135,7 +1137,7 @@ ul.nav-menu li:hover > ul,
 	height: 279px;
 	background-image: url(example_image.jpg);
 	float: left;
-	margin: 8px;
+	margin: 9px;
 	text-indent: 0px;
 	overflow: hidden;
 	padding-bottom: 0px;
