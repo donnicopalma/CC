@@ -37,7 +37,7 @@ if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 					<div class="redes1">
 						<img class="redespng" src="wp-content/themes/twentythirteen/images/youtube.png"/>
 					</div>
-				<div id="carousel1">
+					<div id="carousel1">
 					<img alt="imagen 1" src="wp-content/themes/twentythirteen/images/facebook.png"/>
 					<img alt="imagen 2" src="wp-content/themes/twentythirteen/images/twitter.png"/>
 					<img alt="imagen 3" src="wp-content/themes/twentythirteen/images/google+.png"/>

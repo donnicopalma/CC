@@ -192,12 +192,13 @@ NUEVO STYLE!! <-----------------------------------------------------------------
 	
 }
 #contenedor{
-	width: 886px;
+	max-width: 886px;
 	float: left;
-	margin-left: 96px;
+	width: 100%;
+	margin: 0 auto;
 }
 #tertiary{
-	float:right;
+	float:left;
 }
 /*
 FIN DEL NUEVO STYLE <-------------------------------------------
@@ -873,11 +874,11 @@ img.wp-smiley,
 
 .site-main .sidebar-container {
 	height: 0;
-	position: absolute;
+	/*position: absolute;*/
 	top: 40px;
-	margin-top: 600px;
-	max-width: 1000px;
-	width: 100%;
+	/*margin-top: 600px;*/
+	/*max-width: 1000px;*/
+	/*width: 100%;*/
 }
 
 .site-main .sidebar-inner {
@@ -1081,12 +1082,8 @@ ul.nav-menu li:hover > ul,
 .destacados{
 	background: no-repeat center center url(images/fondo_destacados.png);
 	background-size:cover;
-	text-align:center !important;
 	padding-top: 16px;
-	padding: 1% 0% 0% 4%;
-	max-width:1600px;
 	width:100%;
-	margin:0 auto;
 	height:623px;
 }
 .destacados div{
@@ -2585,7 +2582,7 @@ footer.entry-meta {
  */
 
 .widget {
-	background-color: rgba(247, 245, 231, 0.7);
+	background-color:#FFF;
 	font-size: 14px;
 	-webkit-hyphens: auto;
 	-moz-hyphens:    auto;
