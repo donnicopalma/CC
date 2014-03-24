@@ -23,6 +23,7 @@
 	<meta name="viewport" content="width=device-width">
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans|Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <script type='text/javascript' src='wp-content/themes/twentythirteen/js/jquery-2.1.0.js'></script>
 	<script type='text/javascript' src='wp-content/themes/twentythirteen/js/carousel_2008.js'></script>
 	<script type='text/javascript' src='wp-content/themes/twentythirteen/js/carousel_2008_conf.js'></script>

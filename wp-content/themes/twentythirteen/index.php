@@ -38,7 +38,7 @@ get_header(); ?>
             </div><!-- #DESTACADOS_cuadrados -->
         </div><!-- #second -->
 	</div>
-
+    <div id="contenedor">
 	<div class="noticias_index">
         <div id="third" class="content-area">
             <div id="content" class="site-content" role="main">
@@ -56,8 +56,8 @@ get_header(); ?>
     
             </div><!-- #content -->
         </div><!-- #third -->
-		
-    </div>
+	</div>
+		</div>
 	<div class="noticias_index"><?php get_sidebar(); ?></div>
 
 <?php get_footer(); ?>

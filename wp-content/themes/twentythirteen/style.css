@@ -108,7 +108,7 @@ textarea {
 
 #site-navigation{
 	color:#58585A;
-	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 
@@ -116,8 +116,8 @@ textarea {
 NUEVO STYLE!! <------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 #logo-clab{
-	margin-left:30px;
-	margin-top:30px;
+	max-width: 372px;
+	width: 100%;
 }
 #menu-item-34{
 	border-right:0px;
@@ -939,7 +939,7 @@ img.wp-smiley,
 .main-navigation {
 	clear: both;
 	margin: 0 auto;
-	max-width: 1080px;	
+	max-width: 900px;	
 	min-height: 32px;
 	position: relative;
 }
@@ -951,24 +951,23 @@ div.nav-menu > ul {
 }
 
 .nav-menu li {
-	border-right: #58585A solid 3px;
 	display: inline-block;
 	position: relative;
 }
 
 .nav-menu li a {
 	color: #58585A;
-	display: block;
-	font-size: 28px;
-	line-height: 1;
-	padding:0px 20px;
-	text-decoration: none;
+	font-size: 22px;
+	padding:0px 10px;
 }
 
 .nav-menu li:hover > a,
 .nav-menu li a:hover {
-	background-color: #fff;
-	color: #212121;
+	background-color: #212121;
+	color: #FFF;
+	border-radius:0.5em 0.5em 0.5em 0.5em;
+	border:dashed 2px;
+	font-size:26px;
 }
 
 .nav-menu .sub-menu,
@@ -1023,11 +1022,6 @@ ul.nav-menu li:hover > ul,
 .navbar {
 	background-color: #FFF;
 	display:inline-block;
-	margin: 0 auto;
-	margin-left:250px;
-	max-width: 1000px;
-	vertical-align:bottom;
-	width: 100%;
 }
 
 .site-header .search-form {
@@ -1085,7 +1079,8 @@ ul.nav-menu li:hover > ul,
 }
 
 .destacados{
-	background: no-repeat center url(images/fondo_destacados.png);
+	background: no-repeat center center url(images/fondo_destacados.png);
+	background-size:cover;
 	text-align:center !important;
 	padding-top: 16px;
 	padding: 1% 0% 0% 4%;
