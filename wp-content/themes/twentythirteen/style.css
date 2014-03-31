@@ -260,8 +260,8 @@ h3 {
 }
 
 h4 {
-	font-size: 20px;
-	margin: 25px 0;
+	margin: 0px 0px 10px 0px;
+	font-size: 18px;
 }
 
 h5 {
@@ -966,11 +966,8 @@ div.nav-menu > ul {
 
 .nav-menu li:hover > a,
 .nav-menu li a:hover {
-	background-color: #212121;
-	color: #FFF;
-	border-radius:0.5em 0.5em 0.5em 0.5em;
-	border:dashed 2px;
-	font-size:26px;
+	color:#bc360a;
+	transition:0.5;
 }
 
 .nav-menu .sub-menu,
@@ -1093,7 +1090,7 @@ ul.nav-menu li:hover > ul,
 }
 
 .noticias_index{
-	text-align: center;
+	/*text-align: center;*/
 	padding-top: 16px;
 }
 .sidebar_index{
@@ -2590,7 +2587,6 @@ footer.entry-meta {
 	-moz-hyphens:    auto;
 	-ms-hyphens:     auto;
 	hyphens:         auto;
-	margin: 0 0 24px;
 	padding: 20px;
 	word-wrap: break-word;
 }
@@ -2622,7 +2618,7 @@ footer.entry-meta {
 }
 
 .widget a {
-	color: #bc360a;
+	color: #212121;
 }
 
 .widget a:hover {
