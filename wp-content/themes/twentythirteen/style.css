@@ -155,7 +155,7 @@ NUEVO STYLE!! <-----------------------------------------------------------------
 	font-size:28px;
 }
 .redesfooter{
-	margin-left:250px;
+	margin-left:450px;
 	float:left;
 }
 .redesfooter div{
@@ -167,17 +167,39 @@ NUEVO STYLE!! <-----------------------------------------------------------------
 .redespng{
 	margin-right:10px;
 }
-#carousel1{
-	max-width: 228px;
+#nav_menu-2{
 	float:left;
-	overflow: auto;
-	height: 57px;
+	margin-left:672px;
+}
+#carousel1{
+	max-width: 400px;
+	float:left;
+	height: 100px;
 	margin-top: 2em;
 	width:100%;
 }
 #carousel1 img{
-	width: 57px;
-	border: 0 none;
+	padding:10px;
+	float:left;
+	max-width: 100px;
+	width: 100%;
+}
+.escuelas img{
+	float:left;
+	max-width: 240px;
+	width:100%;
+}
+.sistema h2{
+	color: #FFF;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 400;
+	font-size: 28px;
+}
+.escuelas h2{
+	color: #FFF;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 400;
+	font-size: 28px;
 }
 .content-area{
 	max-width:1594px;
@@ -201,6 +223,20 @@ NUEVO STYLE!! <-----------------------------------------------------------------
 .medio{
 	width:1219px;
 	margin: 0 auto;
+}
+.colaboradores{
+}
+.titulo_colaborador{
+	float:left;
+	margin-left:24px;
+	margin-top:36px;
+	width:302px;
+}
+.participantes{
+	float:left;
+	margin-left:85px;
+	max-width:480px;
+	width:100%;
 }
 /*
 FIN DEL NUEVO STYLE <-------------------------------------------
@@ -2714,9 +2750,7 @@ footer.entry-meta {
 }
 
 .sidebar .site-footer .widget-area {
-	max-width: 724px;
-	position: relative;
-	left: -158px;
+	max-width: 1360px;
 }
 
 .site-footer .widget {

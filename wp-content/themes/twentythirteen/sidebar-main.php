@@ -22,7 +22,18 @@ if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 					</footer>
 				</div>
 				-->
-                
+                <div class="participantes">
+					<div class="sistema">
+						<h2>Sistema de Transferencia</h2>
+							<img alt="imagen 1" src="wp-content/themes/twentythirteen/images/citt.jpg"/>
+							<img alt="imagen 1" src="wp-content/themes/twentythirteen/images/clab.jpg"/>
+					</div>
+					<div class="escuelas">
+						<h2>Escuelas</h2>
+							<img alt="imagen 1" src="wp-content/themes/twentythirteen/images/escinformatica.jpg"/>
+							<img alt="imagen 1" src="wp-content/themes/twentythirteen/images/esccomunicaciones.jpg"/>
+					</div>
+				</div>
 				<div class="redesfooter">
 					<h2>Redes</h2>
 					<div class="redes1">
@@ -37,12 +48,7 @@ if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 					<div class="redes1">
 						<img class="redespng" src="wp-content/themes/twentythirteen/images/youtube.png"/>
 					</div>
-					<div id="carousel1">
-					<img alt="imagen 1" src="wp-content/themes/twentythirteen/images/facebook.png"/>
-					<img alt="imagen 2" src="wp-content/themes/twentythirteen/images/twitter.png"/>
-					<img alt="imagen 3" src="wp-content/themes/twentythirteen/images/google+.png"/>
-					<img alt="imagen 4" src="wp-content/themes/twentythirteen/images/youtube.png"/>
-				</div>
+					
 				</div>
 				
 			</div><!-- .widget-area -->
