@@ -211,8 +211,14 @@ NUEVO STYLE!! <-----------------------------------------------------------------
 	width: 100%;
 	padding-left: 15px;
 }
-#third{
-	
+.sidebar-inner{
+	float: left;
+	width: 300px;
+}
+.sidebar-inner h2, .sidebar-inner h3{
+	background-image: url(images/lineatitulo.png);
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 #contenedor{
 	max-width: 910px;
@@ -250,9 +256,15 @@ NUEVO STYLE!! <-----------------------------------------------------------------
 	margin-left:80px;
 }
 .contescrito{
+	
 	float: left;
-	width: 841px;
-	margin-left: 236px;
+	width: 820px;
+	height: 1400px;
+	margin-left: 120px;
+	margin-top: 43px;
+}
+.contescrito img{
+	width:100%;
 }
 /*
 FIN DEL NUEVO STYLE <-------------------------------------------
@@ -1234,6 +1246,8 @@ ul.nav-menu li:hover > ul,
 }
 
 .entry-thumbnail img {
+	overflow: hidden;
+	max-height: 490px;
 	display: block;
 	margin: 0 auto 10px;
 	max-width: 1100px;
@@ -2634,6 +2648,8 @@ footer.entry-meta {
  */
 
 .widget {
+	float:left;
+	width:300px;
 	background-color:#FFF;
 	font-size: 14px;
 	-webkit-hyphens: auto;
@@ -2645,6 +2661,7 @@ footer.entry-meta {
 }
 
 .widget .widget-title {
+	text-align:center;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-weight:400;
 	margin: 0 0 10px;
