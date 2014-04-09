@@ -12,22 +12,23 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	
-		<?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
-		<div class="entry-thumbnail">
-			<?php the_post_thumbnail(); ?>
-		</div>
-		<?php endif; ?>
+	
 
 		<?php if ( is_single() ) : ?>
-		<h1 class="entry-title"><?php the_title(); ?></h1>
+  <h1 class="entry-title"><?php the_title(); ?></h1>
 		<?php else : ?>
         <!-- Recuadro con hover -->
         
-        
-        
+        	<?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
+		
+          <?php
+	$thumb_id = get_post_thumbnail_id();
+	$thumb_url = wp_get_attachment_image_src($thumb_id,'thumbnail-size', true);
+	?>
+		<?php endif; ?>
 <div id="wrapper">
-    <div class="new_notice_back">
-      <div class="new_notice_front">
+    <div class="new_notice_back" style="background-image:url(<?php echo $thumb_url[0]; ?>)">
+      <div class="new_notice_front" >
         <h1><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
 		<?php endif; // is_single() ?></h1>
 		
