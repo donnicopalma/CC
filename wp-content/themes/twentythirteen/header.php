@@ -99,7 +99,8 @@
 				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 			</a>
 -->
-			
+
+			<img id="logo-citt" src="wp-content/themes/twentythirteen/images/logocitt.jpg"/>
 			<img id="logo-clab" src="wp-content/themes/twentythirteen/images/logo-clab.png" />
 			<div id="navbar" class="navbar">
 				<nav id="site-navigation" class="navigation main-navigation" role="navigation">

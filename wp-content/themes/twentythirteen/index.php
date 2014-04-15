@@ -40,6 +40,8 @@ get_header(); ?>
 	</div>
     <div class="medio">
         <div id="contenedor">
+		<h2>Recientes</h2>
+		<img src="wp-content/themes/twentythirteen/images/lineadecorado.jpg"/>
         <div class="noticias_index">
             <div id="third" class="content-area">
                 <div id="content" class="site-content" role="main">
@@ -59,6 +61,7 @@ get_header(); ?>
             </div><!-- #third -->
         </div>
 		<div class="colaboradores">
+			<img id="decorado" src="wp-content/themes/twentythirteen/images/decoradocolaboradores.jpg"/>
 			<div class="titulo_colaborador">
 				<h2>Colaboradores:</h2>
 			</div>

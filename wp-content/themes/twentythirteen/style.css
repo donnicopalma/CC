@@ -26,8 +26,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
  *   4.2 - Navigation
  * 5.0 - Content
  *   5.1 - Entry Header
- *   5.2 - Entry Meta
  *   5.3 - Entry Content
+ *   5.2 - Entry Meta
  *   5.4 - Galleries
  *   5.5 - Post Formats
  *   5.6 - Attachments
@@ -116,8 +116,13 @@ textarea {
 NUEVO STYLE!! <------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 #logo-clab{
-	max-width: 372px;
+	max-width: 345px;
 	width: 100%;
+}
+#logo-citt{
+	max-width: 140px;
+	width: 100%;
+	margin-left: 86px;
 }
 #menu-item-34{
 	border-right:0px;
@@ -175,7 +180,6 @@ NUEVO STYLE!! <-----------------------------------------------------------------
 	max-width: 400px;
 	float:left;
 	height: 100px;
-	margin-top: 2em;
 	width:100%;
 }
 #carousel1 img{
@@ -220,22 +224,40 @@ NUEVO STYLE!! <-----------------------------------------------------------------
 	background-repeat: no-repeat;
 	background-position: center center;
 }
+.tilface{
+	text-align: center;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 400;
+	margin: 0 0 10px;
+}
 #contenedor{
 	max-width: 910px;
 	width: 100%;
 	margin: 0 auto;
+	margin-top:74px;
 	float: left;
+}
+#contenedor img{
+	width:100%;
+}
+#contenedor h2{
+	margin: 0 auto;
 }
 .medio{
 	width:1219px;
 	margin: 0 auto;
 }
 .colaboradores{
+	float: left;
+	margin: 30px 0px 30px 0px;	
+}
+#decorado{
+	width:100%;
 }
 .titulo_colaborador{
 	float:left;
 	margin-left:24px;
-	margin-top:36px;
+	margin-top:5px;
 	width:302px;
 }
 .participantes{
