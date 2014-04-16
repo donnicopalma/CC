@@ -116,13 +116,14 @@ textarea {
 NUEVO STYLE!! <------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 #logo-clab{
-	max-width: 345px;
+	height: 100px;
+	max-width: 230px;
 	width: 100%;
+	margin-left:10px;
 }
 #logo-citt{
-	max-width: 140px;
+	max-width: 100px;
 	width: 100%;
-	margin-left: 86px;
 }
 #menu-item-34{
 	border-right:0px;
@@ -988,11 +989,14 @@ img.wp-smiley,
  */
 
 .site-header {
-	position: relative;
+	text-align:center;
+	margin: 0 auto;
+	width:100%;
 }
 
 .site-header .home-link {
 	color: #141412;
+	vertical-align:bottom;
 	display: block;
 	margin: 0 auto;
 	max-width: 1080px;
