@@ -116,17 +116,19 @@ textarea {
 NUEVO STYLE!! <------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 #logo-clab{
-	height: 100px;
-	max-width: 230px;
+	max-width: 345px;
 	width: 100%;
-	margin-left:10px;
 }
 #logo-citt{
-	max-width: 100px;
+	max-width: 140px;
 	width: 100%;
+	margin-left: 86px;
 }
 #menu-item-34{
 	border-right:0px;
+}
+.cuatroredes{
+ 
 }
 .grilla{
 	
@@ -255,6 +257,11 @@ NUEVO STYLE!! <-----------------------------------------------------------------
 #decorado{
 	width:100%;
 }
+.contenido_noticia{
+	max-width: 1100px;
+	width: 100%;
+	margin: 0 auto;
+}
 .titulo_colaborador{
 	float:left;
 	margin-left:24px;
@@ -283,11 +290,13 @@ NUEVO STYLE!! <-----------------------------------------------------------------
 	float: left;
 	width: 820px;
 	height: 1400px;
-	margin-left: 120px;
 	margin-top: 43px;
 }
 .contescrito img{
 	width:100%;
+}
+.comentarios{
+	float:left;
 }
 /*
 FIN DEL NUEVO STYLE <-------------------------------------------
@@ -989,14 +998,11 @@ img.wp-smiley,
  */
 
 .site-header {
-	text-align:center;
-	margin: 0 auto;
-	width:100%;
+	position: relative;
 }
 
 .site-header .home-link {
 	color: #141412;
-	vertical-align:bottom;
 	display: block;
 	margin: 0 auto;
 	max-width: 1080px;
