@@ -115,21 +115,47 @@ textarea {
 /*
 NUEVO STYLE!! <------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
-#logo-clab{
-	max-width: 345px;
-	width: 100%;
+ #logo-clab{
+	height: 100px;
+	max-width: 230px;
+ 	width: 100%;	
+	margin-left:10px;
+ }
+
+ #logo-citt{
+	max-width: 100px;
+ 	width: 100%;
 }
-#logo-citt{
-	max-width: 140px;
+
+.cajatop{
+	position:relative;
+	padding: 15px 0px 0px 0px;
 	width: 100%;
-	margin-left: 86px;
+	height: 130px;
 }
+
+.redes_top{
+	width:100%;
+	height:50px;	
+}
+
+.cajalogos{
+	float:left;
+	width: 30%;
+}
+
+.caja_redes_menu{
+	padding-top:19px;
+	float:left;
+	text-align:right;
+	height:100%;
+	width:70%;
+}
+
 #menu-item-34{
 	border-right:0px;
 }
-.cuatroredes{
- 
-}
+
 .grilla{
 	
 	margin:15px;
@@ -998,13 +1024,17 @@ img.wp-smiley,
  */
 
 .site-header {
-	position: relative;
+	text-align:left;
+	margin: 0 auto;
+	width:1174px;
 }
+
 
 .site-header .home-link {
 	color: #141412;
 	display: block;
 	margin: 0 auto;
+	vertical-align:bottom;
 	max-width: 1080px;
 	min-height: 230px;
 	padding: 0 20px;
@@ -1045,8 +1075,8 @@ img.wp-smiley,
 
 ul.nav-menu,
 div.nav-menu > ul {
-	margin: 0;
-	padding: 0 40px 0 0;
+	margin: 0 -10px 0 0;
+	padding: 0 0 0 0;
 }
 
 .nav-menu li {
@@ -1116,7 +1146,6 @@ ul.nav-menu li:hover > ul,
 
 /* Navbar */
 .navbar {
-	background-color: #FFF;
 	display:inline-block;
 }
 

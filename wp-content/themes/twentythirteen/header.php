@@ -93,29 +93,27 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 	<div id="page" class="hfeed site">
 		<header id="masthead" class="site-header" role="banner">
-<!--
-			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?> "rel="home">
-				<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
-				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-			</a>
--->
-
+<div class="cajatop">
+			<div class="cajalogos">
 			<img id="logo-citt" src="wp-content/themes/twentythirteen/images/logocitt.jpg"/>
 			<img id="logo-clab" src="wp-content/themes/twentythirteen/images/logo-clab.png" />
-			<div class="cuatroredes">
-				<img  src="wp-content/themes/twentythirteen/images/redface.jpg"/>
-				<img  src="wp-content/themes/twentythirteen/images/redtwi.jpg"/>
-				<img  src="wp-content/themes/twentythirteen/images/redgoo.jpg"/>
-				<img  src="wp-content/themes/twentythirteen/images/redyou.jpg"/>
-			</div>
-			<div id="navbar" class="navbar">
-				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
-					<h3 class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></h3>
-					<a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
-					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-					
-				</nav><!-- #site-navigation -->
-			</div>
-		</header><!-- #masthead -->
+            </div>
+			<div class="caja_redes_menu">
+           	  <div class="redes_top">
+                    <img  src="wp-content/themes/twentythirteen/images/redface.jpg"/>
+                    <img  src="wp-content/themes/twentythirteen/images/redtwi.jpg"/>
+                    <img  src="wp-content/themes/twentythirteen/images/redgoo.jpg"/>
+                    <img  src="wp-content/themes/twentythirteen/images/redyou.jpg"/></div>
+              <div id="navbar" class="navbar">
+                <nav id="site-navigation" class="navigation main-navigation" role="navigation">
+                  <h3 class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></h3>
+                        <a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
+                  <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+                        
+                </nav><!-- #site-navigation -->
+              </div>
+        </div>
+       </div>
+  </header><!-- #masthead -->
 
 		<div id="main" class="site-main">
