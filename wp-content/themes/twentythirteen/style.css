@@ -127,6 +127,15 @@ NUEVO STYLE!! <-----------------------------------------------------------------
  	width: 100%;
 }
 
+.subtitulo_contenedor{
+	float:left;
+}
+.likes_redes {
+	margin: 40px 0 0 50px;
+	float: left;
+	width:300px;
+}
+
 .titulos_estado_sidebar{
 	margin-top:5px;
 	font-size: 17px;
@@ -358,7 +367,7 @@ NUEVO STYLE!! <-----------------------------------------------------------------
 }
 .cajavcl{
 	float: left;
-	margin-top: 73px;
+	margin-top: 62px;
 }
 .caja_interior_vcl{
 	float: left;
@@ -419,7 +428,8 @@ h1 {
 
 h2 {
 	font-size: 30px;
-	margin: 20px 0;
+	margin: 30px 0 0 0;
+	line-height: 1.2;
 }
 
 h3 {

@@ -43,9 +43,30 @@
 		
 			<div class="contenido_noticia">
 				<div class="contescrito">
-					<h2>DETALLES</h2>
-					<img alt="imagen 1" src="wp-content/themes/twentythirteen/images/lineadecorado.jpg"/>
+					<div class="subtitulo_contenedor">
+						<h2>DETALLES</h2>
+					</div>
+					<div class="likes_redes">
 					
+					<div class="fb-like" data-href="<?php the_permalink(); ?>" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
+						<!-- <a href="https://twitter.com/share" class="twitter-share-button" url="" data-lang="en">Tweet</a> -->
+						<?php
+						
+$source_url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";  //This could be anything URL source including stripslashes($_POST['url'])
+ 
+$url = "http://api.facebook.com/restserver.php?method=links.getStats&urls=".urlencode($source_url);
+$xml = file_get_contents($url);
+$xml = simplexml_load_string($xml);
+$shares =  $xml->link_stat->share_count;
+$likes =  $xml->link_stat->like_count;
+$comments = $xml->link_stat->comment_count;
+$total = $xml->link_stat->total_count;
+$max = max($shares,$likes,$comments);
+echo $total;
+?>
+						<div > </div>dm,mdkfm
+					</div>
+					<img alt="imagen 1" src="wp-content/themes/twentythirteen/images/lineadecorado.jpg"/>
 					<p>Added by  
 					<?php the_author_posts_link(); ?></p>
 					
