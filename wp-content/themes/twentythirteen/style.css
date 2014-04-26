@@ -127,6 +127,15 @@ NUEVO STYLE!! <-----------------------------------------------------------------
  	width: 100%;
 }
 
+.titulos_estado_sidebar{
+	margin-top:5px;
+	font-size: 17px;
+}
+
+.numeros_estado_sidebar{
+	font-size: 28px;
+	font-family: verdana;
+}
 .cajatop{
 	position:relative;
 	padding: 15px 0px 0px 0px;
@@ -188,6 +197,7 @@ NUEVO STYLE!! <-----------------------------------------------------------------
 	font-weight:400;
 	font-size:28px;
 }
+
 .redesfooter{
 	margin-left:450px;
 	float:left;
@@ -203,7 +213,7 @@ NUEVO STYLE!! <-----------------------------------------------------------------
 }
 #nav_menu-2{
 	float:left;
-	margin-left:672px;
+	margin: 22px 0px 0px 672px;
 }
 #carousel1{
 	max-width: 400px;
@@ -258,12 +268,16 @@ NUEVO STYLE!! <-----------------------------------------------------------------
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-weight: 400;
 	margin: 0 0 10px;
+	background-image: url(images/lineatitulo.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width:300px;
 }
 #contenedor{
 	max-width: 910px;
 	width: 100%;
 	margin: 0 auto;
-	margin-top:74px;
+	margin-top:33px;
 	float: left;
 }
 #contenedor img{
@@ -300,6 +314,12 @@ NUEVO STYLE!! <-----------------------------------------------------------------
 	max-width:480px;
 	width:100%;
 }
+.masonry h3{
+	color: #FFF;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 400;
+	font-size: 28px;
+}
 .bgcontsuperior{
 	background-size: cover;
 	background-color:#2E2E2E;
@@ -317,8 +337,8 @@ NUEVO STYLE!! <-----------------------------------------------------------------
 .contescrito{
 	
 	float: left;
-	width: 820px;
-	margin-top: 43px;
+	width: 884px;
+	margin-top: 0px;
 }
 .contescrito a{
 	color:#93BF22;
@@ -336,6 +356,20 @@ NUEVO STYLE!! <-----------------------------------------------------------------
 .content_categoria p{
 	margin:0px;
 }
+.cajavcl{
+	float: left;
+	margin-top: 73px;
+}
+.caja_interior_vcl{
+	float: left;
+	width: 100px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 0.7;
+	border-right: solid;
+	border-width: 2px;
+}
+
 /*
 FIN DEL NUEVO STYLE <-------------------------------------------
 */
@@ -2721,13 +2755,14 @@ footer.entry-meta {
 .widget {
 	float:left;
 	width:300px;
+	text-align:center;
 	background-color:#FFF;
 	font-size: 14px;
 	-webkit-hyphens: auto;
 	-moz-hyphens:    auto;
 	-ms-hyphens:     auto;
 	hyphens:         auto;
-	padding: 20px;
+	padding: 20px 0px 0px 0px;
 	word-wrap: break-word;
 }
 
@@ -2735,7 +2770,7 @@ footer.entry-meta {
 	text-align:center;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-weight:400;
-	margin: 24px 0 10px;
+	margin: -21px 0 10px;
 }
 
 .widget ul,

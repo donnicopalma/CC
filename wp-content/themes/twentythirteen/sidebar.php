@@ -12,10 +12,15 @@
  */
 
 if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+
+	
+
 	<div id="tertiary" class="sidebar-container" role="complementary">
 		<div class="sidebar-inner">
 			<div class="widget-area">
+			
 				<?php dynamic_sidebar( 'sidebar-2' ); ?>
+
 				<h2 class="tilface" >Social</h2>
 				<div class="fb-like-box" data-href="http://www.facebook.com/FacebookDevelopers" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="true"></div>
 			</div><!-- .widget-area -->

@@ -56,6 +56,7 @@
 					
 						<?php endif; ?>
 					<div class="content_categoria">
+					
 					<p>Categoría:</p>
 					<?php
 					$categories_list = get_the_category_list( __( ', ', 'twentythirteen' ) );
@@ -63,17 +64,27 @@
 						echo '<span class="categories-links">' . $categories_list . '</span>';
 					}
 					?>
+					
 					</div>
 					</div>
 					
 					<div class="comentarios">
-						<div class="fb-comments" data-href="http://127.0.0.1/CC/?p=84" data-width="700" data-colorscheme="light"></div>
+						<div class="fb-comments" data-href="<?php the_permalink(); ?>" data-width="700" data-colorscheme="light"></div>
 					</div>
 				</div>
 			</div>
-	
+			<div class="cajavcl"><h2 class="tilface" >Estado</h2>
+				<div class="caja_interior_vcl">
+					
+					<?php setPostViews(get_the_ID()); ?>
+					<?php echo getPostViews(get_the_ID()); ?>
+				</div>
+				<div class="caja_interior_vcl">
+					<fb:comments-count href="<?php echo get_permalink($post->ID); ?>"></fb:comments-count> <div class="titulos_estado_sidebar" >comentarios</div>
+				</div>
+			</div>
 		</div>
-
+</div>
     
 <!-- END Recuadro con hover -->
 
