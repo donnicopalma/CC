@@ -24,12 +24,12 @@ if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 				-->
                 <div class="participantes">
 					<div class="sistema">
-						<h2>Sistema de Transferencia</h2>
+						<h3>Sistema de Transferencia</h3>
 							<img alt="imagen 1" src="wp-content/themes/twentythirteen/images/citt.jpg"/>
 							<img alt="imagen 1" src="wp-content/themes/twentythirteen/images/clab.jpg"/>
 					</div>
 					<div class="escuelas">
-						<h2>Escuelas</h2>
+						<h3>Escuelas</h3>
 							<img alt="imagen 1" src="wp-content/themes/twentythirteen/images/escinformatica.jpg"/>
 							<img alt="imagen 1" src="wp-content/themes/twentythirteen/images/esccomunicaciones.jpg"/>
 					</div>

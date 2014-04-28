@@ -856,7 +856,7 @@ function dynamic_sidebar($index = 1) {
 			}
 		}
 	}
-
+	
 	$sidebars_widgets = wp_get_sidebars_widgets();
 	if ( empty( $wp_registered_sidebars[ $index ] ) || empty( $sidebars_widgets[ $index ] ) || ! is_array( $sidebars_widgets[ $index ] ) ) {
 		return false;
@@ -896,7 +896,7 @@ function dynamic_sidebar($index = 1) {
 			$did_one = true;
 		}
 	}
-
+	
 	return $did_one;
 }
 
