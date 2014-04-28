@@ -29,24 +29,42 @@
 <div id="wrapper">
     <div class="new_notice_back" style="background-image:url(<?php echo $thumb_url[0]; ?>)">
       <div class="new_notice_front" >
-        <h1><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
-		<?php endif; // is_single() ?></h1>
-		
-			<?php twentythirteen_entry_meta(); ?>
+      
+          <div class="contenedor_notice_front">
+          
+            <div class="fecha_notice_front"><?php twentythirteen_entry_date_modificado(); ?>
+            </div>
+            
+            <div class="titulo_notice_front">
+                <h1><a href="<?php the_permalink(); ?>" rel="bookmark">
+                <?php the_title(); ?></a>
+					<?php endif; // is_single() ?></h1>
+                    
+                        
+                    <!-- .entry-meta -->
+                <!-- .entry-header -->
+            
+                <?php if ( is_search() ) : // Only display Excerpts for Search ?>
+                    <?php the_excerpt(); ?>
+                <!-- .entry-summary -->
+                <?php else : ?>
+                
+				<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentythirteen' ) ); ?>
+                <?php wp_link_pages( array( 'before' => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentythirteen' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
 			<?php edit_post_link( __( 'Edit', 'twentythirteen' ),  '</span>' ); ?>
-		<!-- .entry-meta -->
-	<!-- .entry-header -->
-
-	<?php if ( is_search() ) : // Only display Excerpts for Search ?>
-		<?php the_excerpt(); ?>
-	<!-- .entry-summary -->
-	<?php else : ?>
+                <!-- .entry-content -->
+                
+            	<?php endif; ?>
+            </div>
+            
+            <div class="redes_notice_front">
+            </div>
+                 
+          </div>
+      
     
-		<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentythirteen' ) ); ?>
-		<?php wp_link_pages( array( 'before' => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentythirteen' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
-    <!-- .entry-content -->
     
-	<?php endif; ?>
+    
       </div>
     </div>
    

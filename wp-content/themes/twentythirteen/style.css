@@ -324,6 +324,24 @@ NUEVO STYLE!! <-----------------------------------------------------------------
 .comentarios{
 	float:left;
 }
+
+.contenedor_notice_front{
+	margin: 15px;
+}
+
+.fecha_notice_front{
+	float: left;
+	wdith: 63px;
+	height: 63px;
+	background-image:url(images/fondo_fecha.png);
+	background-repeat:no-repeat;
+}
+
+.titulo_notice_front{
+	float: left;
+	margin: 30px 0 0 30px ;
+	
+}
 /*
 FIN DEL NUEVO STYLE <-------------------------------------------
 */
@@ -1338,6 +1356,13 @@ ul.nav-menu li:hover > ul,
  * ----------------------------------------------------------------------------
  */
 
+.entry-date{
+	font-size:20px;
+	text-align:center;
+	display:block;
+	margin:0px 0 0 15px;
+	color:#FFF;
+}
 .entry-meta {
 	clear: both;
 	font-size: 14px;
