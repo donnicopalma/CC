@@ -8,7 +8,6 @@
  */
 
 get_header(); ?>
-----------------  PAGINA INTERIOR   ---------------
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 			<?php /* The loop */ ?>

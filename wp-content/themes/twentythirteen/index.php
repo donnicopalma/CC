@@ -33,7 +33,7 @@ get_header(); ?>
                 <?php $contar_cuadrado = 0; ?>
                 <?php while ( have_posts() & $contar_cuadrado<'4') : the_post(); ?>
                 <?php  ++$contar_cuadrado; ?>
-                    <?php get_template_part( 'content', get_post_format() ); ?>
+                    <?php get_template_part( 'subdestacado', get_post_format() ); ?>
                 <?php endwhile; ?>
             </div><!-- #DESTACADOS_cuadrados -->
         </div><!-- #second -->
