@@ -62,10 +62,7 @@ $likes =  $xml->link_stat->like_count;
 $comments = $xml->link_stat->comment_count;
 $total = $xml->link_stat->total_count;
 $max = max($shares,$likes,$comments);
-echo $total;
-?>
-						<div > </div>dm,mdkfm
-					</div>
+?></div>
 					<img alt="imagen 1" src="wp-content/themes/twentythirteen/images/lineadecorado.jpg"/>
 					<p>Added by  
 					<?php the_author_posts_link(); ?></p>
