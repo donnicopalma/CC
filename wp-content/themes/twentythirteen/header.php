@@ -81,6 +81,11 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
+	<style>
+		.derecha_vcl{
+			border-right:none;
+		}
+	</style>
 </head>
 <body <?php body_class(); ?>>
 <div id="fb-root"></div>
