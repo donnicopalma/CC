@@ -25,7 +25,6 @@
 		<?php else : ?>
         <!-- Recuadro con hover -->
             
-<div id="wrapper">
     <div class="new_content_back">
 		<div class="new_content_front">
 			<h1><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
@@ -48,9 +47,8 @@
 					</div>
 					<div class="likes_redes">
 					
-					<div class="fb-like" data-href="<?php the_permalink(); ?>" data-layout="standard" data-action="like" data-show-faces="false" data-share="false"></div>
+					<div class="fb-like" data-href="<?php the_permalink(); ?>" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
 						<!-- <a href="https://twitter.com/share" class="twitter-share-button" url="" data-lang="en">Tweet</a> -->
-<<<<<<< HEAD
 						<?php
 						
 $source_url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";  //This could be anything URL source including stripslashes($_POST['url'])
@@ -64,9 +62,6 @@ $comments = $xml->link_stat->comment_count;
 $total = $xml->link_stat->total_count;
 $max = max($shares,$likes,$comments);
 ?></div>
-=======
-					</div>
->>>>>>> 2b0a75e0ebcd86ed2a0908e8f5eaaf444e5a0857
 					<img alt="imagen 1" src="wp-content/themes/twentythirteen/images/lineadecorado.jpg"/>
 					<p>Added by  
 					<?php the_author_posts_link(); ?></p>

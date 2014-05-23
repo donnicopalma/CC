@@ -30,7 +30,9 @@ h3.srp-widget-title{
  
 /* The Recent Posts Container. */
 div.srp-widget-container {
-	width:262px;
+	text-align:left;
+	margin: 0px 10px 0px 10px;
+	width: 200 px;
 	display: table;
 	clear: both;
 }
@@ -46,7 +48,7 @@ a.srp-widget-title-link {
 
 /* Single post entry box. */
 div.srp-widget-singlepost {
-	margin: 0px 0px 10px 0px;
+	margin: 0px 0px 15px 0px;
 	clear: both;
 }
 
@@ -55,7 +57,7 @@ div.srp-single-row {
 	display: table-cell;
 	vertical-align: top;
 	margin: 0px 0px 0px 0px;
-	padding: 0px 10px 0px 0px;
+	padding: 0px 0px 0px 0px;
 	border: none;
 }
 
@@ -70,7 +72,6 @@ div.srp-widget-row {
 /* The multi-column class on each post entry */
 div.srp-multi-column {
 	display: table-cell;
-	vertical-align: top;
 }
 
 /*
@@ -81,10 +82,9 @@ div.srp-multi-column {
 
 /* The thumbnail box. */
 div.srp-thumbnail-box {
-	width:150px;
+	width:110px;
 	display: table-cell;
 	vertical-align: top;
-	padding-right: 10px;
 }
 
 /* The thumbnail link. */
@@ -111,6 +111,7 @@ div.srp-thumbnail-box img.avatar {
 div.srp-content-box {
 	display: table-cell;
 	vertical-align: top;
+	text-align:justify;
 }
 
 /* The single post title. */
